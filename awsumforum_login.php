@@ -25,7 +25,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <h1>Just do it!</h1>
+ <h1 style="color:blue;">This is a Blue Heading</h1>
+     <h1>Just do it!</h1>
     <div class="container flex-container flex-container--justify-content">
       <section class="section-container--white">
         <form name="input" action="" method="post">
