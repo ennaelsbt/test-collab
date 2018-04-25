@@ -1,0 +1,122 @@
+body {
+  background:  #f4f4f4;
+  color:       #666;
+  font:        400 16px 'Work Sans', sans-serif;
+  line-height: 1.4em;
+}
+div,
+section,
+form {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex-container--justify-content {
+  justify-content: center;
+}
+.flex-container--space-around {
+  justify-content: space-around;
+}
+.flex-container--column {
+  flex-direction: column;
+}
+.container {
+  width: 100%;
+}
+.section-container--white {
+  max-width: 300px;
+  padding:   14px 24px;
+}
+.section-container--white {
+          background: #fff;
+  -webkit-box-shadow: 5px 5px 15px -1px rgba(214,214,214,1);
+     -moz-box-shadow: 5px 5px 15px -1px rgba(214,214,214,1);
+          box-shadow: 5px 5px 15px -1px rgba(214,214,214,1);
+}
+input::-webkit-input-placeholder {
+  color:     #a2a3a5;
+  font-size: 15px;
+}
+input::-moz-placeholder {
+  color:     #a2a3a5;
+  font-size: 15px;
+}
+input:-ms-input-placeholder {
+  color:     #a2a3a5;
+  font-size: 15px;
+}
+input:-moz-placeholder {
+  color:     #a2a3a5;
+  font-size: 15px;
+}
+
+input,
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  background:    #fff;
+  color:         #666;
+  font-size:     15px;
+  border:        0;
+  border-bottom: 1px solid #a2a3a5;
+}
+input,
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  width:         100%;
+  margin:        5px 0;
+  padding:       12px 6px;
+  border-radius: 0px;
+}
+input[type="submit"] {
+  margin-top:    20px;
+  background:    #0087ff;
+  color:         #fff;
+  border:        1px solid #0087ff;
+  border-radius: 50px;
+}
+input[name="logout"] {
+  width:           40%;
+  padding:         8px 4px;
+  background:      none;
+  color:           #0087ff;
+  font-size:       12px;
+  font-weight:     700;
+  text-decoration: underline;
+  border:          0;
+}
+input:focus {
+  outline: 0;
+}
+input:focus::-webkit-input-placeholder {
+  transition:     0.1s 0.1s ease-out;
+  opacity:        0.5;
+  font-size:      12px;
+}
+input:focus:-moz-placeholder {
+  transition: 0.1s 0.1s ease-out;
+  opacity:    0.5;
+  font-size:  12px;
+
+}
+h1 {
+  margin:      80px 0 48px 0;
+  font-weight: 300;
+  text-align:  center;
+}
+strong {
+  color:       #ff4300;
+  font-weight: 700;
+}
+.error-message {
+  border-left:  #ff4300 solid 3px;
+  padding-left: 8px;
+}
